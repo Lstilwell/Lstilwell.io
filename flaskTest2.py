@@ -1,6 +1,5 @@
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
 import sqlite3 as lite
-from sortedFood_crawler import get_foodNames
 from contextlib import closing
 from flask_mail import Mail, Message
 
